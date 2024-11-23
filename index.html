@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>EdTech Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div class="top1">
+        <div class="topadd"><img src="Images/Location.png" alt=""> 127/5 Mark Street, New York</div>
+        <div class="topemail"><img src="Images/Mail.png" alt="">vermacreations@gmail.com</div>
+        <div class="topopen">Opening Hours: Monday to Saturday</div>
+    </div>
+    <div class="header">
+        <div class="logo">
+            <img src="Images\NV Logo.png" alt="Verma logo">
+        </div>
+        <div class="callmenu responsive600">
+            <img src="Images/Open.png" id="copen" onclick="callopen()">
+            <img src="Images/Close.png" id="cclose" onclick="callclose()">
+        </div>
+        <div class="call" id="callid">
+            <div class="callicon">
+                <img src="Images/Call.png" alt="">
+            </div>
+            <div class="calltxt">
+                <div style="font-size: 11px; font-weight: 200; color: black;">Get In Touch With Us:</div>
+                <div style="font-size: 16px; font-weight: bold; color: var(--blue);">xxxxxxxxxx</div>
+            </div>
+        </div>
+        <div class="apply" id="appid">
+            <div>Apply</div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="mobmenu responsive600">
+            <img src="Images/Open.png" id="mopen" onclick="menuopen()">
+            <img src="Images/Close.png" id="mclose" onclick="menuclose()">
+        </div>
+        <div class="menu-div" id="menudiv">
+            <a href=""><div class="menu-item">HOME</div></a>
+            <a href=""><div class="menu-item">ABOUT US</div></a>
+            <a href=""><div class="menu-item">COURSES</div></a>
+            <a href=""><div class="menu-item">EVENTS</div></a>
+            <a href=""><div class="menu-item">OUR TEACHERS</div></a>
+            <a href=""><div class="menu-item">BLOGS</div></a>
+            <a href=""><div class="menu-item">SHOP</div></a>
+            <a href=""><div class="menu-item">CONTACT</div></a>
+        </div>
+        <div class="search-div">
+            <div>
+                <img src="Images/Search.png" alt="" onclick="opensrch()">
+            </div>
+            <div><img src="Images/Lock.png" alt=""></div>
+        </div>
+    </div>
+    <div class="srchbar" id="srchbarid">
+        <div class="srchbox"><input type="text" placeholder="Search Here"></div>
+        <div class="srchicon"><img src="Images/Search.png" alt=""></div>
+        <div class="srchicon"><img src="Images/Cross.png" onclick="closesrch()" style="margin-right: 50px;"></div>
+    </div>
+    <div class="heroimg">
+        <div class="herotxt1" style="font-size: 43px; font-weight: bold;">Choose the right theme for Education</div>
+        <div class="herotxt2" style="font-size: 15px; line-height: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget mi quis ante pharetra accumsan eget suscipit felis.</div>
+        <div class="herobtn responsivehb">
+            <a href=""><div>Read More</div></a>
+            <a href=""><div>Get Started</div></a>
+        </div>
+    </div>
+    <div class="showcase-cont">
+        <div class="showcase">
+            <div class="showcase-div1">Best platform to learn everything</div>
+            <div class="showcase-div2">
+                <div class="scnav"><div><</div></div>
+                <div class="scitem" style="background-color: rgb(0, 153, 255);">
+                    <img src="Images/Language.png" alt="">Language
+                </div>
+                <div class="scitem" style="background-color: rgb(42, 248, 128);">
+                    <img src="Images/Business.png" alt="">Business
+                </div>
+                <div class="scitem liter" style="background-color: rgb(247, 51, 100);">
+                    <img src="Images/Literature.png" alt="">Literature
+                </div>
+                <div class="scnav"><div>></div></div>
+            </div>
+        </div>
+    </div>
+    <div class="main-cont">
+        <div class="mainleft">
+            <div class="abouttit">About Us<div></div></div>
+            <div class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget mi quis ante pharetra accumsan eget suscipit felis. Maecenas nec dignissim diam, quis tincidunt elit. Maecenas eu vehicula arcu. Proin facilisis dui gravida lorem venenatis, nec pulvinar leo molestie. <br><br> Donec nulla nulla, pharetra nec ipsum in, ultricies interdum lorem. Morbi accumsan ultricies ante, quis bibendum ipsum condimentum nec. Duis vulputate efficitur risus id lobortis.</div>
+            <div class="herobtn" style="margin-top: 20px !important;">
+                <a href=""><div>Learn More</div></a>
+            </div>
+        </div>
+        <div class="mainright">
+            <div class="event">
+                <div class="eventtit">Upcoming Events</div>
+                <div class="eventcont">
+                    <div class="eventdiv">
+                        <div class="edate"><img src="Images/Calender.png" alt="">09 September 2022</div>
+                        <div class="etitle">Campus clean workshop</div>
+                        <div class="etime">
+                            <div><img src="Images/Time.png" alt=""> 10 AM TO 03 PM</div>
+                            <div><img src="Images/Location.png" alt=""> In Auditorium</div>
+                        </div>
+                    </div>
+                    <div class="eventdiv">
+                        <div class="edate"><img src="Images/Calender.png" alt="">09 September 2022</div>
+                        <div class="etitle">Campus clean workshop</div>
+                        <div class="etime">
+                            <div><img src="Images/Time.png" alt=""> 10 AM TO 03 PM</div>
+                            <div><img src="Images/Location.png" alt=""> In Auditorium</div>
+                        </div>
+                    </div>
+                    <div class="eventdiv">
+                        <div class="edate"><img src="Images/Calender.png" alt="">09 September 2022</div>
+                        <div class="etitle">Campus clean workshop</div>
+                        <div class="etime">
+                            <div><img src="Images/Time.png" alt=""> 10 AM TO 03 PM</div>
+                            <div><img src="Images/Location.png" alt=""> In Auditorium</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="course">
+        <div class="ccolmn">
+            <div class="ctitle">Under Graduate (UG) Courses</div>
+            <div class="cline"></div>
+            <div class="cdetail">Nulla pulvinar lacus non ligula viverra sagittis. Pellentesque elementum pharetra est, eget tristique metus eleifend tincidunt. Morbi condimentum maximus nisl, quis scelerisque nunc volutpat ut.</div>
+            <div class="herobtn" style="margin-top: 20px !important;">
+                <a href=""><div>Explore</div></a>
+            </div>
+        </div>
+        <div class="ccolmn">
+            <div class="ctitle">Post Graduate (PG) Courses</div>
+            <div class="cline"></div>
+            <div class="cdetail">Nulla pulvinar lacus non ligula viverra sagittis. Pellentesque elementum pharetra est, eget tristique metus eleifend tincidunt. Morbi condimentum maximus nisl, quis scelerisque nunc volutpat ut.</div>
+            <div class="herobtn" style="margin-top: 20px !important;">
+                <a href=""><div>Explore</div></a>
+            </div>
+        </div>
+    </div>
+    <div class="divborder">
+        <div class="divbrdrtit">Our Numbers</div>
+        <div class="divbrdrdet">
+            <div class="numcont">
+                <div class="numbers">40+</div>
+                <div class="numtit">Teachers</div>
+            </div>
+            <div class="numcont">
+                <div class="numbers">90+</div>
+                <div class="numtit">Company Visits</div>
+            </div>
+            <div class="numcont">
+                <div class="numbers">89%</div>
+                <div class="numtit">Placement/Year</div>
+            </div>
+        </div>
+    </div>
+    <div class="divborder">
+        <div class="divbrdrtit">Our HODs</div>
+        <div class="divbrdrdet" style="flex-wrap: wrap;">
+            <div class="tchr">
+                <div class="tchrimg"><img src="Images/Teacher1.jpg" alt=""></div>
+                <div class="tchrname">John Doe</div>
+                <div class="tchrdet">(Head of Department, Biology)</div>
+            </div>
+            <div class="tchr">
+                <div class="tchrimg"><img src="Images/Teacher2.jpg" alt=""></div>
+                <div class="tchrname">Liverani Stephan</div>
+                <div class="tchrdet">(Head of Department, Physics)</div>
+            </div>
+            <div class="tchr">
+                <div class="tchrimg"><img src="Images/Teacher3.jpg" alt=""></div>
+                <div class="tchrname">Henry Tuchez</div>
+                <div class="tchrdet">(Head of Department, Chemistry)</div>
+            </div>
+            <div class="tchr">
+                <div class="tchrimg"><img src="Images/Teacher4.jpg" alt=""></div>
+                <div class="tchrname">Birbal Singh</div>
+                <div class="tchrdet">(Head of Department, Mathematics)</div>
+            </div>
+        </div>
+    </div>
+    <div class="divborder no-scroll">
+        <div class="divbrdrtit">Top Companies Visiting Us</div>
+        <div style="width: 80%; overflow-x: auto; margin-bottom: 20px;">
+            <div class="compcont" id="compscroll">
+                <!-- <div class="scnav" style="position: absolute; left: 40px; height: 110px !important;" onclick="slideright()"><div><</div></div> -->
+                <div class="complogo">
+                    <img src="Images/Company1.png" alt="">
+                </div>
+                <div class="complogo">
+                    <img src="Images/Company2.jpeg" alt="">
+                </div>
+                <div class="complogo">
+                    <img src="Images/Company3.jpg" alt="">
+                </div>
+                <div class="complogo">
+                    <img src="Images/Company4.jpg" alt="">
+                </div>
+                <div class="complogo">
+                    <img src="Images/Company5.jpg" alt="">
+                </div>
+                <div class="complogo">
+                    <img src="Images/Company6.jpg" alt="">
+                </div>
+                <div class="complogo">
+                    <img src="Images/Company7.jpg" alt="">
+                </div>
+                <!-- <div class="scnav" style="position: absolute; right: 40px; height: 110px !important;" onclick="slideleft()"><div>></div></div> -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="fcolmn">
+                <div class="flink">Link One</div>
+                <div class="flink">Link Two</div>
+                <div class="flink">Link Three</div>
+                <div class="flink">Link Four</div>
+                <div class="flink">Link Five</div>
+                <div class="flink">Link Six</div>
+            </div>
+            <div class="fcolmn">
+                <div class="flink">Website One</div>
+                <div class="flink">Website Two</div>
+                <div class="flink">Website Three</div>
+                <div class="flink">Website Four</div>
+                <div class="flink">Website Five</div>
+            </div>
+            <div class="fcolmn">                
+                <div class="Email"><b>Mail Us: </b>vermacreations@gmail.com</div>
+                <div class="Address"><b>Location:</b><br>127/5 Mark Street<br>New York, London <br><br><a href=""><font style="background-color: rgba(255,255,255,0.3); padding: 2px 5px 2px 5px; border-radius: 2px; color: white;">See On Map</font></a></div>
+            </div>
+            <div class="developer">
+                <div class="social">
+                    <div class="slink">
+                        <img src="Images/Facebook.png" alt="">
+                    </div>
+                    <div class="slink">
+                        <img src="Images/Instagram.png" alt="">
+                    </div>
+                    <div class="slink">
+                        <img src="Images/Twitter.png" alt="">
+                    </div>
+                    <div class="slink">
+                        <img src="Images/Youtube.png" alt="">
+                    </div>
+                    <div class="slink">
+                        <img src="Images/Linkedin.png" alt="">
+                    </div>
+                </div>
+                <div style="font-size: 12px; margin-top: 20px;">Site Designed and Developed By:</div>
+                <img class="developer-img" style="width: 150px; filter: invert(1);" src="Images\NV Logo.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <script src='script.js'></script>
+</body>
+</html>
